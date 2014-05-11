@@ -114,6 +114,7 @@ html_options -->
 
 html_buttons -->
 	html([
+	       button([type(button), class(addmanually)], 'add manually'),
 	       button([type(button), class(setall)], 'apply to all'),
 	       button([type(button), class(cancel)], cancel),
 	       button([type(button), class(submit)], submit),
